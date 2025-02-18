@@ -1,0 +1,51 @@
+import './nav.css';
+import Logo from '../../assets/Logo.svg';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import Hamburger from '../../assets/icon _hamburger menu.svg';
+
+
+function Nav() {
+  const [showMenu, setShowMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
+  };
+
+  const closeMenuOnMobile = () => {
+    if (window.innerWidth <= 1300) {
+      setShowMenu(false);
+    }
+  };
+
+  return (
+    <header>
+      <nav>
+        <Link to="/" className='nav__logo'>
+          <img src={Logo} alt="logo" height="60rem"/>
+        </Link>
+        <div
+          className={`nav__menu ${showMenu ? "show-menu" : ""}`}
+          id="nav-menu"
+        >
+          <ul className='nav__list'>
+              <li className='nav__item'><Link to="/" onClick={closeMenuOnMobile}>Home</Link></li>
+              <li className='nav__item'><Link to="/" onClick={closeMenuOnMobile}>About</Link></li>
+              <li className='nav__item'><Link to="/" onClick={closeMenuOnMobile}>Menu</Link></li>
+              <li className='nav__item'><Link to="/booking" onClick={closeMenuOnMobile}>Reservations</Link></li>
+              <li className='nav__item'><Link to="/" onClick={closeMenuOnMobile}>Order Online</Link></li>
+              <li className='nav__item'><Link to="/" onClick={closeMenuOnMobile}>Log In</Link></li>
+          </ul>
+          <div className='nav__close' onClick={toggleMenu}>
+            <img src={Hamburger} />
+          </div>
+        </div>
+        <div className="nav__toggle" onClick={toggleMenu}>
+          <img src={Hamburger} />
+        </div>
+      </nav>
+    </header>
+  );
+}
+
+export default Nav;

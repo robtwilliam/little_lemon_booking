@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Markazi+Text:wght@400..700&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width:80%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -15,26 +15,64 @@ code {
     monospace;
 }
 
+/* Color and Font variables */
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-  align-items: center;
+:root {
+  --primary-green: #495E57;
+  --primary-yellow: #F4CE14;
+  --secondary-orange: #EE9972;
+  --secondary-light-orange: #FBDABB;
+  --secondary-off-white: #EDEFEE;
+  --secondary-dark-grey: #333333;
+  --display-title-font: 550 4rem/2rem "Markazi Text", sans-serif;
+  --sub-title-font: 400 2.5rem "Markazi Text", sans-serif;
+  --paragraph-title-font: 700 1.25rem/1.4rem "Karla", sans-serif;
+  --lead-text-font: 550 1.125rem "Karla", sans-serif;
+  --section-title-font: 800 1.25rem "Karla", sans-serif;
+  --section-categories-font: 800 1rem "Karla", sans-serif;
+  --card-title-font: 800 1.125rem "Karla", sans-serif;
+  --paragraph-text-font: 400 1rem/1.25rem "Karla", sans-serif;
+  --paragraph-text-highlight-font: 700 1rem "Karla", sans-serif;
 }
 
-nav > ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-evenly;
-  width: 60%;
+/* Font classes */
+
+
+
+h2 {
+  font: var(--sub-title-font);
+  color: var(--secondary-off-white);
+  margin: 0 0 0 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-bottom: 1rem;
 }
+
+/* Component styling */
+
+
 
 ul {
   list-style-type: none;
 }
 
 a, a:visited, a:hover, a:active {
-  color: black;
+  color: var(--secondary-dark-grey);
   text-decoration: none;
+}
+
+button {
+  background-color: var(--primary-yellow);
+  border: none;
+  color: var(--secondary-dark-grey);
+  font: var(--section-categories-font);
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: .75rem 0;
+  cursor: pointer;
+  border-radius: 10px;
+  height: 3rem;
 }

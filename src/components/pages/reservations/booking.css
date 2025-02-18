@@ -1,0 +1,25 @@
+.booking-page {
+    max-width: 884px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.booking-form {
+    display: grid;
+    max-width: 200px;
+    gap: "20px";
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font: var(--display-title-font);
+    text-align: center;
+    color: var(--secondary-dark-grey);
+}
+
+.error-msg {
+    color: red;
+}
