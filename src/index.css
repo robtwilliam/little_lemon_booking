@@ -1,3 +1,4 @@
+@import "normalize.css";
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Markazi+Text:wght@400..700&display=swap');
 
 body {
@@ -24,7 +25,7 @@ code {
   --secondary-light-orange: #FBDABB;
   --secondary-off-white: #EDEFEE;
   --secondary-dark-grey: #333333;
-  --display-title-font: 550 4rem/2rem "Markazi Text", sans-serif;
+  --display-title-font: 550 4rem "Markazi Text", sans-serif;
   --sub-title-font: 400 2.5rem "Markazi Text", sans-serif;
   --paragraph-title-font: 700 1.25rem/1.4rem "Karla", sans-serif;
   --lead-text-font: 550 1.125rem "Karla", sans-serif;
@@ -56,9 +57,13 @@ ul {
   list-style-type: none;
 }
 
-a, a:visited, a:hover, a:active {
+a, a:visited, a:active {
   color: var(--secondary-dark-grey);
   text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-yellow);
 }
 
 button {

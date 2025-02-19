@@ -16,8 +16,8 @@ function Chicago() {
                 </p>
             </div>
             <div className='chicago-bio-images'>
-                <img src={img_a} className='chicago-bio-img-a' />
-                <img src={img_b} className='chicago-bio-img-b' />
+                <img src={img_a} className='chicago-bio-img-a' alt="Chefs A"/>
+                <img src={img_b} className='chicago-bio-img-b' alt="Chefs B"/>
             </div>
         </div>
     )

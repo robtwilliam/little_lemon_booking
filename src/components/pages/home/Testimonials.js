@@ -44,7 +44,7 @@ function TestimonialCard(props) {
             </div>
         </div>
         <div className='testimonial-image-and-name'>
-            <img src={require(`../../../assets/${props.image}`)} className='testimonial-image'/>
+            <img src={require(`../../../assets/${props.image}`)} className='testimonial-image' alt={props.name}/>
             <div className='testimonial-name'>
                 {props.name}
             </div>

@@ -37,11 +37,11 @@ function Nav() {
               <li className='nav__item'><Link to="/" onClick={closeMenuOnMobile}>Log In</Link></li>
           </ul>
           <div className='nav__close' onClick={toggleMenu}>
-            <img src={Hamburger} />
+            <img src={Hamburger} alt="hamburger nav"/>
           </div>
         </div>
         <div className="nav__toggle" onClick={toggleMenu}>
-          <img src={Hamburger} />
+          <img src={Hamburger} alt="hamburger nav"/>
         </div>
       </nav>
     </header>

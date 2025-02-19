@@ -6,7 +6,6 @@ function Footer() {
     return (
       <footer>
         <div className='footer-contents'>
-          <img src={Logo} className='footer-logo'/>
           <div className='footer-nav'>
               <h3>
                   Navigate
@@ -58,6 +57,7 @@ function Footer() {
                 </li>
               </ul>
             </div>
+            <img src={Logo} className='footer-logo' alt="footer logo"/>
         </div>
       </footer>
     );

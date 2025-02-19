@@ -29,7 +29,7 @@ var specials_data =  [
 function SpecialsCarouselItem(props) {
     return (
         <div className='specials-carousel-item'>
-            <img src={require(`../../../assets/${props.image}`)} className='specials-carousel-image'/>
+            <img src={require(`../../../assets/${props.image}`)} className='specials-carousel-image' alt={props.title}/>
             <div className='carousel-item-contents'>
                 <div className='carousel-title-and-price'>
                     <div className='carousel-item-title'>
@@ -46,7 +46,7 @@ function SpecialsCarouselItem(props) {
                     <div className='carousel-order-cta'>
                         Order a delivery
                     </div>
-                    <img src={Basket} className='basket-icon'/>
+                    <img src={Basket} className='basket-icon' alt={props.title}/>
                 </div>
             </div>
         </div>

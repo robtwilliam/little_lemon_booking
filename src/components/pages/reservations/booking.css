@@ -8,18 +8,67 @@
 
 .booking-form {
     display: grid;
-    max-width: 200px;
-    gap: "20px";
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
     margin-left: auto;
     margin-right: auto;
+    row-gap: 5px;
 }
 
-h2 {
-    font: var(--display-title-font);
-    text-align: center;
+.input-button {
+    margin: 10px 0 10px 0;
+    grid-column: span 2;
+    background-color: var(--primary-yellow);
+    border: none;
     color: var(--secondary-dark-grey);
+    font: var(--section-categories-font);
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: .75rem 0;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 3rem;
+  }
+
+.input-button:disabled {
+    background-color: var(--secondary-dark-grey);
+    color: var(--secondary-off-white);
+}
+
+.booking-page > h2 {
+    font: var(--sub-title-font);
+    color: var(--primary-green);
+    padding-top: 10px;
 }
 
 .error-msg {
     color: red;
+    font: var(--paragraph-text-font);
+}
+
+.booking-hero {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: 0 100%;
+}
+
+.booking-form > label {
+    font: var(--section-categories-font);
+}
+
+input, select, option {
+    font: var(--paragraph-text-font);
+}
+
+.booking-confirmation {
+    max-width: 884px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
 }

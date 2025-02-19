@@ -34,15 +34,15 @@ function BookingForm({availableTimes, setAvailableTimes}) {
             </select>
             <label htmlFor="guests">Guests</label>
             <input type="number" value={guests} min="1" max="10" id="guests" onChange={(e) => setGuests(e.target.value)}/>
-            {guests === "0" && <span className="error-msg">Please enter at least one guest</span>}
-            {Number(guests) > 10 && <span className="error-msg">Please enter less than 10 guests</span>}
+            {guests === "0" && <span></span>}{guests === "0" && <span className="error-msg">Please enter at least one guest</span>}
+            {Number(guests) > 10 &&  <span></span>}{Number(guests) > 10 && <span className="error-msg">Please enter less than 10 guests</span>}
             <label htmlFor="occasion">Occasion</label>
             <select id="occasion" value={occasion} onChange={(e) => setOccasion(e.target.value)}>
                 <option>None</option>
                 <option>Birthday</option>
                 <option>Anniversary</option>
             </select>
-            <input type="submit" aria-label="On Click" value="Make Your reservation" onClick={useHandleSubmit} disabled={!isFormValid()}/>
+            <input className='input-button' type="submit" aria-label="On Click" value={isFormValid() ? "Make Your reservation" : "Enter Reservation Details" } onClick={useHandleSubmit} disabled={!isFormValid()}/>
         </form>
     )
 }

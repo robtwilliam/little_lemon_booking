@@ -22,7 +22,7 @@ test('Generates the list of times using the updateTimes function', () => {
 
 test('Submit button is deactivated before required fields are filled', () => {
   render(<MemoryRouter><BookingForm /></MemoryRouter>)
-  const submitButton = screen.getByText(/Make Your Reservation/i)
+  const submitButton = screen.getByText(/Enter Reservation Details/i)
   expect(submitButton).toBeDisabled();
 })
 
