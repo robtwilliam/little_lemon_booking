@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/little_lemon_booking/static/css/main.1ddfae6b.css",
+    "main.css": "/little_lemon_booking/static/css/main.8769492f.css",
     "main.js": "/little_lemon_booking/static/js/main.b61f7f41.js",
     "static/js/453.a68b0250.chunk.js": "/little_lemon_booking/static/js/453.a68b0250.chunk.js",
     "static/media/Mario and Adrian A.jpg": "/little_lemon_booking/static/media/Mario and Adrian A.7f44c6d6e341a27d14b3.jpg",
@@ -30,12 +30,12 @@
     "static/media/icon _hamburger menu_.svg": "/little_lemon_booking/static/media/icon _hamburger menu_.0da6f67ced800ab909f6.svg",
     "static/media/Recent.svg": "/little_lemon_booking/static/media/Recent.e0aaaf80c16d160b4080.svg",
     "static/media/Dish icon.svg": "/little_lemon_booking/static/media/Dish icon.eb7158edce238dc7aca3.svg",
-    "main.1ddfae6b.css.map": "/little_lemon_booking/static/css/main.1ddfae6b.css.map",
+    "main.8769492f.css.map": "/little_lemon_booking/static/css/main.8769492f.css.map",
     "main.b61f7f41.js.map": "/little_lemon_booking/static/js/main.b61f7f41.js.map",
     "453.a68b0250.chunk.js.map": "/little_lemon_booking/static/js/453.a68b0250.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ddfae6b.css",
+    "static/css/main.8769492f.css",
     "static/js/main.b61f7f41.js"
   ]
 }
