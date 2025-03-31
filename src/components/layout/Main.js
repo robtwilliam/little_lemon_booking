@@ -5,6 +5,7 @@ import BookingPage from '../pages/reservations/BookingPage';
 import { useReducer } from 'react';
 import { initializeTimes, updateTimes } from '../../utils/TimeAndDateGenerators';
 import BookingConfirmed from '../pages/reservations/BookingConfirmed';
+import PageNotFound from '../pages/pagenotfound/PageNotFound';
 
 
 function Main() {
@@ -26,6 +27,7 @@ function Main() {
             <Route path="/" element={<HomePage />} />
             <Route path="/booking" element={<BookingPage availableTimes={availableTimes} setAvailableTimes={dispatch}/>} />
             <Route path='/booking-confirmed' element={<BookingConfirmed />} />
+            <Route path="*" element={<PageNotFound />} />
         </Routes>
       </main>
     );

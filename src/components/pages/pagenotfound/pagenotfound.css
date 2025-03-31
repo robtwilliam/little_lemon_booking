@@ -1,0 +1,9 @@
+.page-not-found {
+    max-width: 864px;
+    margin: 0 auto;
+    min-height: 50vh;
+}
+
+.page-not-found > h2 {
+    color: black;
+}

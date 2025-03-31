@@ -30,11 +30,11 @@ function Nav() {
         >
           <ul className='nav__list'>
               <li className='nav__item'><Link to="/" onClick={closeMenuOnMobile}>Home</Link></li>
-              <li className='nav__item'><Link to="/" onClick={closeMenuOnMobile}>About</Link></li>
-              <li className='nav__item'><Link to="/" onClick={closeMenuOnMobile}>Menu</Link></li>
+              <li className='nav__item'><Link to="/about" onClick={closeMenuOnMobile}>About</Link></li>
+              <li className='nav__item'><Link to="/menu" onClick={closeMenuOnMobile}>Menu</Link></li>
               <li className='nav__item'><Link to="/booking" onClick={closeMenuOnMobile}>Reservations</Link></li>
-              <li className='nav__item'><Link to="/" onClick={closeMenuOnMobile}>Order Online</Link></li>
-              <li className='nav__item'><Link to="/" onClick={closeMenuOnMobile}>Log In</Link></li>
+              <li className='nav__item'><Link to="/order" onClick={closeMenuOnMobile}>Order Online</Link></li>
+              <li className='nav__item'><Link to="/login" onClick={closeMenuOnMobile}>Log In</Link></li>
           </ul>
           <div className='nav__close' onClick={toggleMenu}>
             <img src={Hamburger} alt="hamburger nav"/>

@@ -328,7 +328,8 @@ object-fit: cover;
 
 .chicago-bio-images {
     position: relative;
-    width: 432px;
+    width: 400px;
+    margin: 0 auto;
 }
 
 .chicago-bio-img-a {
