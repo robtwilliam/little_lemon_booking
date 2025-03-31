@@ -2,6 +2,7 @@
     max-width: 864px;
     margin: 0 auto;
     min-height: 50vh;
+    padding: 1rem;
 }
 
 .page-not-found > h2 {

@@ -31,7 +31,7 @@ font-family: var(--second-font);
     cursor: pointer;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 950px) {
     .nav__menu {
     position: fixed;
     top: 0;
@@ -45,7 +45,8 @@ font-family: var(--second-font);
     transition: right 0.4s;
     }
 }
-@media screen and (max-width: 1300px) {
+
+@media screen and (max-width: 950px) {
     .nav__menu {
     padding: 4rem 1rem 2rem;
     z-index: 999;
@@ -115,7 +116,7 @@ font-family: var(--second-font);
     transition: right 0.4s;
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 950px) {
     .nav {
     height: calc(var(--header-height) + 1rem);
     }
