@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/little_lemon_booking/static/css/main.1ddfae6b.css",
+    "main.js": "/little_lemon_booking/static/js/main.ba956b04.js",
+    "static/js/453.a68b0250.chunk.js": "/little_lemon_booking/static/js/453.a68b0250.chunk.js",
+    "static/media/Mario and Adrian A.jpg": "/little_lemon_booking/static/media/Mario and Adrian A.7f44c6d6e341a27d14b3.jpg",
+    "static/media/Mario and Adrian b.jpg": "/little_lemon_booking/static/media/Mario and Adrian b.6ba0e06bfa9c1ea75109.jpg",
+    "static/media/bruchetta.svg": "/little_lemon_booking/static/media/bruchetta.29ea078fea3d3120ed22.svg",
+    "static/media/restaurant chef B.jpg": "/little_lemon_booking/static/media/restaurant chef B.4b4c2d26b514db32e8fc.jpg",
+    "static/media/greek salad.jpg": "/little_lemon_booking/static/media/greek salad.bed423a1fab5b210e347.jpg",
+    "static/media/restauranfood.jpg": "/little_lemon_booking/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
+    "static/media/Ui kit (1).png": "/little_lemon_booking/static/media/Ui kit (1).d2b430230e9f1dfac4e2.png",
+    "static/media/Ui kit.svg": "/little_lemon_booking/static/media/Ui kit.5383bfd50c523995ecaa.svg",
+    "static/media/1_ji5jV-KoRbEFScZQUPYyGg.png": "/little_lemon_booking/static/media/1_ji5jV-KoRbEFScZQUPYyGg.7d8f08224fd9792f0565.png",
+    "static/media/restaurant.jpg": "/little_lemon_booking/static/media/restaurant.324d0f99bdf19400a0f7.jpg",
+    "static/media/headshot_3.jpg": "/little_lemon_booking/static/media/headshot_3.c180afdad2836da8d98d.jpg",
+    "static/media/headshot_2.jpg": "/little_lemon_booking/static/media/headshot_2.2ee819e5c521701c7cea.jpg",
+    "static/media/headshot_4.jpg": "/little_lemon_booking/static/media/headshot_4.39ec43adac4d5f5179b4.jpg",
+    "static/media/logo-white.png": "/little_lemon_booking/static/media/logo-white.d09eb2af6c5a2225eedf.png",
+    "static/media/headshot_1.jpg": "/little_lemon_booking/static/media/headshot_1.2e0c85ddab99e528a365.jpg",
+    "static/media/Logo.svg": "/little_lemon_booking/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
+    "static/media/Logo .svg": "/little_lemon_booking/static/media/Logo .f72c913c48c5334f78f2.svg",
+    "static/media/creditcard.svg": "/little_lemon_booking/static/media/creditcard.da396757005b701145de.svg",
+    "static/media/home icon.svg": "/little_lemon_booking/static/media/home icon.fa875b8ebddfa88cc6c1.svg",
+    "static/media/icon _eye_.svg": "/little_lemon_booking/static/media/icon _eye_.2621d0c077dcfa918508.svg",
+    "index.html": "/little_lemon_booking/index.html",
+    "static/media/Basket.svg": "/little_lemon_booking/static/media/Basket.fae9b50adb46a3bfa9273d6c25dc3935.svg",
+    "static/media/basket .svg": "/little_lemon_booking/static/media/basket .096e0ee1a59ac26349dc.svg",
+    "static/media/icon _hamburger menu.svg": "/little_lemon_booking/static/media/icon _hamburger menu.0da6f67ced800ab909f63d5144de37ee.svg",
+    "static/media/icon _hamburger menu_.svg": "/little_lemon_booking/static/media/icon _hamburger menu_.0da6f67ced800ab909f6.svg",
+    "static/media/Recent.svg": "/little_lemon_booking/static/media/Recent.e0aaaf80c16d160b4080.svg",
+    "static/media/Dish icon.svg": "/little_lemon_booking/static/media/Dish icon.eb7158edce238dc7aca3.svg",
+    "main.1ddfae6b.css.map": "/little_lemon_booking/static/css/main.1ddfae6b.css.map",
+    "main.ba956b04.js.map": "/little_lemon_booking/static/js/main.ba956b04.js.map",
+    "453.a68b0250.chunk.js.map": "/little_lemon_booking/static/js/453.a68b0250.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ddfae6b.css",
+    "static/js/main.ba956b04.js"
+  ]
+}
