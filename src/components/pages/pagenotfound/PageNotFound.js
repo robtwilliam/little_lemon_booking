@@ -7,7 +7,7 @@ function PageNotFound() {
             <h1>404</h1>
             <h2>Oops! page not found.</h2>
             <p>The page you are looking for does not exist or has been moved</p>
-            <Link to="/"><button>Go back home</button></Link>
+            <Link to="/little_lemon_booking"><button>Go back home</button></Link>
         </div>
     )
 }

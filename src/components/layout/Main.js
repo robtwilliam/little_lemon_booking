@@ -24,9 +24,9 @@ function Main() {
     return (
       <main>
         <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/booking" element={<BookingPage availableTimes={availableTimes} setAvailableTimes={dispatch}/>} />
-            <Route path='/booking-confirmed' element={<BookingConfirmed />} />
+            <Route path="/little_lemon_booking" element={<HomePage />} />
+            <Route path="/little_lemon_booking/booking" element={<BookingPage availableTimes={availableTimes} setAvailableTimes={dispatch}/>} />
+            <Route path='/little_lemon_bookinng/booking-confirmed' element={<BookingConfirmed />} />
             <Route path="*" element={<PageNotFound />} />
         </Routes>
       </main>

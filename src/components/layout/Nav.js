@@ -21,7 +21,7 @@ function Nav() {
   return (
     <header>
       <nav>
-        <Link to="/" className='nav__logo'>
+        <Link to="/little_lemon_booking" className='nav__logo'>
           <img src={Logo} alt="logo" height="60rem"/>
         </Link>
         <div
@@ -29,12 +29,12 @@ function Nav() {
           id="nav-menu"
         >
           <ul className='nav__list'>
-              <li className='nav__item'><Link to="/" onClick={closeMenuOnMobile}>Home</Link></li>
-              <li className='nav__item'><Link to="/about" onClick={closeMenuOnMobile}>About</Link></li>
-              <li className='nav__item'><Link to="/menu" onClick={closeMenuOnMobile}>Menu</Link></li>
-              <li className='nav__item'><Link to="/booking" onClick={closeMenuOnMobile}>Reservations</Link></li>
-              <li className='nav__item'><Link to="/order" onClick={closeMenuOnMobile}>Order Online</Link></li>
-              <li className='nav__item'><Link to="/login" onClick={closeMenuOnMobile}>Log In</Link></li>
+              <li className='nav__item'><Link to="/little_lemon_booking" onClick={closeMenuOnMobile}>Home</Link></li>
+              <li className='nav__item'><Link to="/little_lemon_booking/about" onClick={closeMenuOnMobile}>About</Link></li>
+              <li className='nav__item'><Link to="/little_lemon_booking/menu" onClick={closeMenuOnMobile}>Menu</Link></li>
+              <li className='nav__item'><Link to="/little_lemon_booking/booking" onClick={closeMenuOnMobile}>Reservations</Link></li>
+              <li className='nav__item'><Link to="/little_lemon_booking/order" onClick={closeMenuOnMobile}>Order Online</Link></li>
+              <li className='nav__item'><Link to="/little_lemon_booking/login" onClick={closeMenuOnMobile}>Log In</Link></li>
           </ul>
           <div className='nav__close' onClick={toggleMenu}>
             <img src={Hamburger} alt="hamburger nav"/>
