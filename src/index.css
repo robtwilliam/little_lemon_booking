@@ -34,6 +34,7 @@ code {
   --card-title-font: 800 1.125rem "Karla", sans-serif;
   --paragraph-text-font: 400 1rem/1.25rem "Karla", sans-serif;
   --paragraph-text-highlight-font: 700 1rem "Karla", sans-serif;
+  background-color: white;
 }
 
 /* Font classes */
